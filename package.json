@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "python-electron-example",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -14,9 +14,13 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Deus",
   "license": "CC0-1.0",
+  "dependencies": {
+    "zerorpc": "git+https://github.com/0rpc/zerorpc-node.git"
+  },
   "devDependencies": {
-    "electron": "^8.2.3"
+    "electron": "^8.2.3",
+    "electron-packager": "^9.0.1"
   }
 }
